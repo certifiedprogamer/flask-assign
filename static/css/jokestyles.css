@@ -1,0 +1,51 @@
+
+h1{
+    color: blue;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+button{
+    margin: auto;
+    display: block;
+    margin-bottom: 1em;
+}
+label{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+ul{
+    text-align: center;
+}
+
+#results{
+    font-weight: bold;
+}
+
+body{
+    background-image: url('./drhouse.png');
+    background-attachment: fixed; /* Keeps the image fixed during scrolling */
+    background-size: cover;
+}
+
+.joke-container{
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 0 6px 2px black;
+}
+
+select{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+form{
+    text-align: center;
+}

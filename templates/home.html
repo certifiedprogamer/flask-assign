@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the joke house</title>
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='css/styles.css')}}"
+    />
+  </head>
+  <body>
+    <h1 class="title">
+      The joke
+      <img src="./static/images/drhouse.png" alt="" class="smallhouse" />
+    </h1>
+    <p class="link"><a href="/joke">dad joke</a></p>
+    <p class="link"><a href="/search">search</a></p>
+    <div id="widget-grid">
+      <h1 class="title">joke demonstration</h1>
+      <div id="cards">
+        <div class="card-wrapper">
+          <div class="card">
+            <div class="card-image">
+              <img src="./static/images/housecane.jpg" alt="" />
+            </div>
+            <header class="card-header"></header>
+            <div class="card-body">
+              “Doctor, I’ve broken my arm in several places” Doctor: “Well don’t
+              go to those places.”
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="./static/images/house.jpg" alt="" />
+            </div>
+            <header class="card-header"></header>
+            <div class="card-body">
+              I asked the surgeon if I could administer my own anesthetic, they
+              said: go ahead, knock yourself out.
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="./static/images/drhouse.png" alt="" />
+            </div>
+            <header class="card-header"></header>
+            <div class="card-body">
+              I went to the doctor today and he told me I had type A blood but
+              it was a type O.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

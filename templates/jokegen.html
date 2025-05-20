@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wanna hear a joke</title>
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='css/jokestyles.css')}}"
+    />
+  </head>
+  <body>
+    <div class="joke-container">
+      <p><a href="/">Return home</a></p>
+      <form action="/joke" method="POST">
+        <label for="feeling">How are you feeling?</label>
+        <select name="mood" id="mood" required>
+          <option value="house">angry</option>
+          <option value="house">good</option>
+          <option value="house">horrible</option>
+          <option value="house">sad</option>
+          <option value="house">house</option>
+        </select>
+        <button type="submit">Get a joke</button>
+      </form>
+      <p>{{quote}}</p>
+      <p>{{joke}}</p>
+    </div>
+  </body>
+</html>

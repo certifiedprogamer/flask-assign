@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='css/searchstyles.css')}}"
+    />
+  </head>
+  <body>
+    <h1>search for a joke</h1>
+    <form action="/search" method="post">
+      <label for="jokesearch"
+        >Search <input type="text" name="jokesearch" required
+      /></label>
+      <button type="submit">Submit</button>
+    </form>
+    <p><a href="/">Return home</a></p>
+    {% if joke %}
+    <div class="joke-container">
+      <p id="results">Search results</p>
+      <ul>
+        {% for j in joke %}
+        <li>{{j["joke"]}}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% elif first_search == True %}
+    <p class="errormsg">No joke found, try another term.</p>
+    {% endif %}
+  </body>
+</html>

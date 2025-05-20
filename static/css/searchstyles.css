@@ -1,0 +1,59 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    text-align: center;
+    color: limegreen;
+}
+p{
+    text-align: center;
+}
+button{
+    margin: auto;
+    display: block;
+}
+label{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+ul{
+    text-align: center;
+}
+
+#results{
+    font-weight: bold;
+    color: white;
+}
+
+body{
+    background-image: url('./houseglove.jpg');
+    background-attachment: fixed; /* Keeps the image fixed during scrolling */
+    background-size:contain;
+}
+
+ul{
+    color: white;
+    list-style-position: inside;
+    list-style-image: url(./perfection.png);
+    
+}
+
+.errormsg{
+    color: white;
+}
+
+.joke-container{
+    background-color: black;
+    max-width: 1024px;
+    border-radius: 5px;
+    margin:auto;
+    padding: 10px;
+}
+
+.joke-container li{
+    padding-top: 2em;
+}
