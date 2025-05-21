@@ -41,6 +41,8 @@ def search():
         if response.status_code == 200:
             data = response.json()
             joke = data["results"]
+        else:
+            joke = "Could not find joke at this time"
     return render_template("jokesearch.html", joke=joke, first_search=first_search)
 
 
