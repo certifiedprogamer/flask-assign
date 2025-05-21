@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-import requests
+import requests  # type: ignore
 import random
 
 app = Flask(__name__)
