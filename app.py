@@ -24,6 +24,8 @@ def joke():
             data = response.json()
             joke = data["joke"]
             quote = random.choice(housequotes)
+        else:
+            joke = "Could not find joke at this time"
     return render_template("jokegen.html", joke=joke, quote=quote)
 
 
