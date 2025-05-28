@@ -8,7 +8,8 @@ housequotes = ["“You took a chance, you did something great. You were wrong, b
                "“Dr. Robert Chase: The hematoma caused the coma. Dr. Gregory House: That's a catchy diagnosis. You could dance to that.”", "“I need thirty-six Vicodin and change for a dollar.”", "“There's no 'I' in team. There's a 'me' though, if you jumble it up.”", "“Just because you don't know what the right answer is, maybe there's even no way you could know what the right answer is doesn't make your answer right or even okay. It's much simpler than that. It's just plain wrong.”", "“You talk to God, you're religious; God talks to you, you're psychotic.”", "“Ramona: Hi. I'm having vaginal pain. Dr. Gregory House: Pleasure to meet you.”", "“You want to know how two chemicals interact, do you ask them? No, they're going to lie through their lying little teeth. Throw them in a beaker and apply heat.”", "“Jobs are not being destroyed they are being relocated. The fact that you see that as inherently bad means that you are an irrational patriot. To put it another way: a patriot.”", "“Figuring out who people are takes time. And it takes twice as much time if they're trying to impress you.”", "“Do I get bonus points if I act like I care?”",
                "“Dr. Eric Foreman: 10-year-olds do not have heart attacks. It's got to be a mistake. Dr. Gregory House: Right. The simplest explanation is she's a 40-year-old lying about her age. Maybe an actress trying to hang on”"]
 
-videos = ["bigmoneydog.mp4", "rockeater.mp4"]
+videos = ["bigmoneydog.mp4", "rockeater.mp4",
+          "IMGONNAKILLYOU.mp4", "benadryl.mp4", "barbie.mp4"]
 
 
 @app.route("/")
