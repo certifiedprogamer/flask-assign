@@ -63,3 +63,19 @@ body{
     background-attachment: fixed; /* Keeps the image fixed during scrolling */
     background-size:cover;
 }
+
+#evil-link{
+        margin: 0;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        opacity: 0.4;
+        color: lightblue;
+}
+
+footer{
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+}
