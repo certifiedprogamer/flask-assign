@@ -9,7 +9,7 @@ housequotes = ["“You took a chance, you did something great. You were wrong, b
                "“Dr. Eric Foreman: 10-year-olds do not have heart attacks. It's got to be a mistake. Dr. Gregory House: Right. The simplest explanation is she's a 40-year-old lying about her age. Maybe an actress trying to hang on”"]
 
 videos = ["bigmoneydog.mp4", "rockeater.mp4",
-          "IMGONNAKILLYOU.mp4", "benadryl.mp4", "barbie.mp4", "theoldtestament.mp4"]
+          "IMGONNAKILLYOU.mp4", "benadryl.mp4", "barbie.mp4", "theoldtestament.mp4", "afghanistangiant.mp4"]
 
 
 @app.route("/")
